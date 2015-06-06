@@ -1,5 +1,5 @@
-var height = document.querySelector('body').clientHeight;
-var width = document.querySelector('body').clientWidth;
+var height = window.innerHeight;
+var width = window.innerWidth;
 
 var svg = d3.select('#chumpsContainer').append('svg')
             .attr('height', height).attr('width', width);
